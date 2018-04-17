@@ -1,28 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <Search/>
+    <ActiveVideo/>
+    <VideoList/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Search from './components/Search'
+import ActiveVideo from './components/ActiveVideo'
+import VideoList from './components/VideoList'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Search,
+    ActiveVideo,
+    VideoList
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

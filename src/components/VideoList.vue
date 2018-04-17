@@ -1,5 +1,5 @@
 <template>
-  <h3>Welcome to vuetube search</h3>
+  <h3>Video list</h3>
 </template>
 
 <script>
